@@ -40,3 +40,7 @@ Use repo-relative paths, prefer fresh image filenames to avoid preview caching, 
 ## Starter Template
 
 Copy [`canvas.md`](canvas.md) to the root of a working repo, then replace the image path and caption whenever a new figure should be displayed.
+
+## Display Noise
+
+Routine `canvas.md` refreshes are operational plumbing. Agents should not narrate the file edit or mention source/update mechanics unless the user asks; just refresh the canvas and, if useful, say briefly that the canvas is refreshed.
